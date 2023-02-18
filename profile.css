@@ -729,7 +729,7 @@ input:checked + .slider:before {
     background: none;
     padding-bottom: 0.5rem;
     margin-top: 0.2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .pro_edit > span {
     display: flex;
@@ -739,4 +739,9 @@ input:checked + .slider:before {
 .pro_edit > span > p {
   bottom: 8%;
 }
+.pro_edit > div > ion-icon {
+  right: 2rem;
+  padding-top: 1rem;
+}
+
 }
