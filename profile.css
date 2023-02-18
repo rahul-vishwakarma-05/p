@@ -737,7 +737,7 @@ input:checked + .slider:before {
   }
   
 .pro_edit > span > p {
-  bottom: 8%;
+  bottom: 3rem;
 }
 .pro_edit > div > ion-icon {
   right: 2rem;
