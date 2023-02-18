@@ -626,12 +626,10 @@ input:checked + .slider:before {
   position: absolute;
   right: 2rem;
   padding-top: 2rem;
-  color: rgba(0, 0, 0, 0.558);
-
 }
 
 .pro_edit > div > ::placeholder {
-  color: rgba(0, 0, 0, 0.558);
+  color: rgba(0, 0, 0, 0.666);
   font-weight: 700;
 }
 .pro_edit > span {
@@ -704,7 +702,7 @@ input:checked + .slider:before {
 
 /* ----------------------  media query for --------------------------------------------------------------------------------------------------------------------------- */
 /* ----------------------- width:-400px and height:- 900px ---------------------------------------------- */
-@media screen and (max-height: 740px) {
+@media screen and (max-height: 667px) {
   .profile_pic {
     width: 6rem;
     height: 6rem;
@@ -723,17 +721,4 @@ input:checked + .slider:before {
   #footer {
     bottom: 1rem;
   }
-  .pro_edit > div > input {
-    margin-top: .1rem;
-    font-size: 1rem;
-  }
-  .pro_edit > div > ion-icon {
-    padding-top: 1rem;
-    color: rgba(0, 0, 0, 0.558);  
-  }
-  
-.pro_edit > span > p {
-  bottom: 3%;
-  padding: .7rem;
-} 
 }
