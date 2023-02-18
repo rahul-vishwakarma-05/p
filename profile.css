@@ -701,7 +701,7 @@ input:checked + .slider:before {
 
 /* ----------------------  media query for --------------------------------------------------------------------------------------------------------------------------- */
 /* ----------------------- width:-400px and height:- 900px ---------------------------------------------- */
-@media screen and (max-height: 667px) {
+@media screen and (max-height: 740px) {
   .profile_pic {
     width: 6rem;
     height: 6rem;
